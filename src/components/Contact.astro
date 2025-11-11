@@ -1,0 +1,54 @@
+---
+import Container from "./Container.astro";
+---
+<div id="servicios">
+    <Container>
+        <div id="contacto">
+            <div class="mb-20 space-y-4 px-6 md:px-0">
+                <h2 class="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">Contacto</h2>
+            </div>
+
+            <div>
+                <div>
+                    <form>
+                        <div class="mb-6">
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nombre</label>
+                            <input type="text" id="name" name="name"
+                                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary"
+                                   placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Correo
+                                Electrónico</label>
+                            <input type="email" id="email" name="email"
+                                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary"
+                                   placeholder="Tu correo" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message"
+                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"
+                                      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary focus:border-primary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary dark:focus:border-primary"
+                                      placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit"
+                                    class="cursor-pointer mb-6 text-white bg-primary hover:bg-primary-dark focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-primary dark:hover:bg-primary-dark dark:focus:ring-primary">
+                                Enviar Mensaje
+                            </button>
+                        </div>
+                    </form>
+                    <a href="https://wa.me/527671169068" target="_blank"
+                       class="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-500 dark:hover:bg-green-600 dark:focus:ring-green-300"
+                    >Enviar
+                        WhatsApp</a>
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </Container>
+</div>
+
